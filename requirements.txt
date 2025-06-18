@@ -1,25 +1,83 @@
-# === Core Python Utilities ===
-numpy>=1.24.0
-pandas>=2.1.0
-scipy>=1.10.0
+# Core Python
+python-dotenv
+pydantic
+requests
+pyyaml
+loguru
 
-# === Data Ingestion & Processing ===
-kafka-python>=2.0.2
-pyshark>=0.6
-pyspark>=3.5.0
-clickhouse-driver>=0.2.6
-flink-python>=1.16.0  # optional if using Flink
-tqdm>=4.66.0
+# Networking and Traffic Parsing
+scapy
+dpkt
+pyshark
 
-# === Machine Learning / AI ===
-scikit-learn>=1.4.0
-xgboost>=2.0.0
-tensorflow>=2.15.0
-torch>=2.2.0
-pytorch-lightning>=2.1.0
-onnx>=1.15.0
-umap-learn>=0.5.5
-imbalanced-learn>=0.12.0
+# Data Processing & Pipelines
+pandas
+numpy
+pyarrow
+kafka-python
+apache-flink
 
-# === NLP & Threat Intel Parsing ===
+# AI/ML
+scikit-learn
+xgboost
+lightgbm
+tensorflow
+torch
+pytorch-lightning
+catboost
+mlflow
+onnxruntime
+
+# Time-Series & Anomaly Detection
+statsmodels
+prophet
+pyod
+tslearn
+
+# Reinforcement Learning (Optional)
+stable-baselines3
+gymnasium
+
+# API & Backend (FastAPI stack)
+fastapi
+uvicorn[standard]
+httpx
+
+# Database Clients
+sqlalchemy
+psycopg2-binary
+clickhouse-driver
+boto3  # for AWS S3
+
+# Threat Intelligence & Security
 stix2
+taxii2-client
+yara-python
+shodan
+
+# DevOps & Monitoring
+docker
+kubernetes
+prometheus-client
+sentry-sdk
+
+# Visualization (optional for data science)
+matplotlib
+seaborn
+plotly
+
+# Model Serving
+torchserve
+onnx
+flask
+
+# Testing
+pytest
+pytest-cov
+tox
+
+# Jupyter & Dev Tools (Optional)
+jupyterlab
+ipykerne
+black
+isort
