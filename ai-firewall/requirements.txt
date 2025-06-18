@@ -1,0 +1,83 @@
+# Core Python
+python-dotenv
+pydantic
+requests
+pyyaml
+loguru
+
+# Networking and Traffic Parsing
+scapy
+dpkt
+pyshark
+
+# Data Processing & Pipelines
+pandas
+numpy
+pyarrow
+kafka-python
+apache-flink
+
+# AI/ML
+scikit-learn
+xgboost
+lightgbm
+tensorflow
+torch
+pytorch-lightning
+catboost
+mlflow
+onnxruntime
+
+# Time-Series & Anomaly Detection
+statsmodels
+prophet
+pyod
+tslearn
+
+# Reinforcement Learning (Optional)
+stable-baselines3
+gymnasium
+
+# API & Backend (FastAPI stack)
+fastapi
+uvicorn[standard]
+httpx
+
+# Database Clients
+sqlalchemy
+psycopg2-binary
+clickhouse-driver
+boto3  # for AWS S3
+
+# Threat Intelligence & Security
+stix2
+taxii2-client
+yara-python
+shodan
+
+# DevOps & Monitoring
+docker
+kubernetes
+prometheus-client
+sentry-sdk
+
+# Visualization (optional for data science)
+matplotlib
+seaborn
+plotly
+
+# Model Serving
+torchserve
+onnx
+flask
+
+# Testing
+pytest
+pytest-cov
+tox
+
+# Jupyter & Dev Tools (Optional)
+jupyterlab
+ipykernel
+black
+isort
