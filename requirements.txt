@@ -78,6 +78,6 @@ tox
 
 # Jupyter & Dev Tools (Optional)
 jupyterlab
-ipykerne
+ipykernel
 black
 isort
